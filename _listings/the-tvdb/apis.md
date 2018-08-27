@@ -9,11 +9,21 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Actors
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/actors/master/_listings/the-tvdb/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: The TVDB API v2 - Get Series Actors
+  x-api-slug: seriesidactors-get
+  description: Returns actors for the given series id
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/thetvdb.jpeg
+  humanURL: http://thetvdb.com
+  baseURL: https://api-dev.thetvdb.com//
+  tags: Televisions, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/actors/master/_listings/the-tvdb/seriesidactors-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://the.open.movie.database.api.gallery.streamdata.io
